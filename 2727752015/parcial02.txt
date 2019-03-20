@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace parcial02
+{
+    class ejer2
+    {
+
+        public double Div;
+
+        public int val1, val2;
+
+
+        public void div()
+        {
+
+
+            Console.WriteLine("Iigrese primer numero : ");
+            val1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese segundo numero : ");
+            val2 = int.Parse(Console.ReadLine());
+
+            Div = (val1 * val2);
+
+
+            Console.WriteLine("Error no es posible dividir entre cero:");
+
+
+        }
+
+
+
+    }
+}
